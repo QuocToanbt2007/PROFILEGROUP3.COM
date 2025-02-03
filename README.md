@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -55,13 +56,7 @@
             background: #FFA07A;
             color: white;
         }
-        .back-pano {
-            background: #FFDAB9;
-            color: white;
-            padding: 15px;
-            font-size: 20px;
-            cursor: pointer;
-        }
+		
     </style>
 </head>
 <body>
@@ -84,9 +79,8 @@
             </tr>							
     </div>
     
-    <div class="back-pano" onclick="history.back()">⬅ RETURN TO PREVIOUS PAGE</div>
+    <div class="home-pano">
+    <a href="Profile group 3.html" style="color: black; text-decoration: none;">🏠 HOME </a>
+</div>
 </body>
 </html>
-
-       
-         
